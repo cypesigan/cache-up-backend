@@ -47,16 +47,13 @@ const userSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-//Before saving: scramble the password
 userSchema.pre("save", async function () {
   if (!this.isModified("password")) return;
   this.password = await bcrypt.hash(this.password, 10);
 });
 
-//For login: check if the typed password matches the scrambled one
 userSchema.methods.comparePassword = async function (enteredPassword) {
   return await bcrypt.compare(enteredPassword, this.password);
 };
 
-// Export it so other files can use it
 module.exports = mongoose.model("User", userSchema);

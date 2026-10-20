@@ -8,9 +8,9 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({ message: "CacheUp API is running" });
 });
-app.post("/sign-up", (req, res) => {
-  res.json({ message: "CacheUp API is running" });
-});
+
+const authRoutes = require("./routes/authRoutes");   
+app.use("/api/auth", authRoutes ); 
 
 const PORT = process.env.PORT || 5000;
 
