@@ -1,0 +1,3842 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Stella Walton",
+      "email": "stella@cacheup.edu",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "title": "Visual Arts & UI Design Student",
+      "bio": "Passionate about digital illustration, generative design, and high-performance frontend interfaces.",
+      "department": "School of Design & Creative Arts",
+      "studentId": "CU-2026-0842",
+      "phone": "+1 (555) 234-8901",
+      "joinedDate": "January 2026",
+      "points": 1450,
+      "gpa": "3.88",
+      "streakDays": 14,
+      "studyHours": 42,
+      "enrolledCourseIds": [
+        "crs-1",
+        "crs-2",
+        "crs-3",
+        "crs-4",
+        "crs-5",
+        "crs-6"
+      ]
+    },
+    {
+      "id": "usr-2",
+      "name": "Melissa Anderson",
+      "email": "melissa@cacheup.edu",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "title": "Interaction & UX Student",
+      "bio": "Exploring color theory, typography systems, and modern digital sketching.",
+      "department": "School of Design & Creative Arts",
+      "studentId": "CU-2026-0911",
+      "phone": "+1 (555) 872-4412",
+      "joinedDate": "February 2026",
+      "points": 1280,
+      "gpa": "3.75",
+      "streakDays": 9,
+      "studyHours": 36,
+      "enrolledCourseIds": [
+        "crs-1",
+        "crs-3",
+        "crs-4",
+        "crs-5"
+      ]
+    },
+    {
+      "id": "usr-6",
+      "name": "Lucas Perez",
+      "email": "lucas@cacheup.edu",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+      "title": "Digital Illustration & UI Student",
+      "bio": "Concept design enthusiast concentrating on dynamic anatomical figures and modular layouts.",
+      "department": "School of Design & Creative Arts",
+      "studentId": "CU-2026-0945",
+      "phone": "+1 (555) 674-9022",
+      "joinedDate": "March 2026",
+      "points": 1120,
+      "gpa": "3.82",
+      "streakDays": 8,
+      "studyHours": 29,
+      "enrolledCourseIds": [
+        "crs-2",
+        "crs-4",
+        "crs-5",
+        "crs-6"
+      ]
+    },
+    {
+      "id": "usr-7",
+      "name": "Elena Rostova",
+      "email": "elena@cacheup.edu",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "title": "Classical Fine Arts & Calligraphy Student",
+      "bio": "Transfer scholar specializing in modern abstraction, Arabic letterform craft, and studio critique.",
+      "department": "Fine Arts & Applied Media",
+      "studentId": "CU-2026-0952",
+      "phone": "+1 (555) 441-9087",
+      "joinedDate": "April 2026",
+      "points": 1340,
+      "gpa": "3.91",
+      "streakDays": 12,
+      "studyHours": 34,
+      "enrolledCourseIds": [
+        "crs-1",
+        "crs-3",
+        "crs-5"
+      ]
+    },
+    {
+      "id": "usr-3",
+      "name": "Prof. Alicia Mayer",
+      "email": "alicia@cacheup.edu",
+      "password": "password123",
+      "role": "teacher",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "title": "Professor of Contemporary Visual Arts",
+      "bio": "Award-winning instructor with 12+ years lecturing on modern art history, design composition, and typography.",
+      "department": "Fine Arts & Applied Media",
+      "phone": "+1 (555) 304-9821",
+      "joinedDate": "August 2024",
+      "assignedCourseIds": [
+        "crs-1",
+        "crs-3",
+        "crs-5"
+      ]
+    },
+    {
+      "id": "usr-4",
+      "name": "Mika Dickens",
+      "email": "mika@cacheup.edu",
+      "password": "password123",
+      "role": "teacher",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "title": "Senior Lecturer in Digital Illustration",
+      "bio": "Freelance concept artist and lead instructor for advanced sketching and character anatomy.",
+      "department": "Digital Arts & Animation",
+      "phone": "+1 (555) 489-1102",
+      "joinedDate": "October 2024",
+      "assignedCourseIds": [
+        "crs-2",
+        "crs-4",
+        "crs-6"
+      ]
+    },
+    {
+      "id": "usr-5",
+      "name": "Marcus Vance",
+      "email": "admin@cacheup.edu",
+      "password": "password123",
+      "role": "admin",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "title": "Head of Academic Systems & Dean of Registry",
+      "bio": "Platform super-administrator managing academic accreditation, admissions, and course scheduling.",
+      "department": "Academic Administration",
+      "phone": "+1 (555) 901-7782",
+      "joinedDate": "January 2023"
+    },
+    {
+      "id": "usr-8",
+      "name": "Julian Vance",
+      "email": "julian.vance@example.com",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+      "title": "Graphic Design & UI Architecture Student",
+      "bio": "Specializing in design systems, layout architecture, and digital typography.",
+      "department": "School of Design & Creative Arts",
+      "studentId": "CU-2026-0961",
+      "phone": "+1 (555) 332-9011",
+      "joinedDate": "May 2026",
+      "points": 1040,
+      "gpa": "3.78",
+      "streakDays": 6,
+      "studyHours": 24,
+      "enrolledCourseIds": [
+        "crs-1",
+        "crs-4",
+        "crs-5"
+      ]
+    },
+    {
+      "id": "usr-9",
+      "name": "Maya Lin",
+      "email": "maya.lin@example.com",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+      "title": "Calligraphy & Contemporary Studio Student",
+      "bio": "Passionate about traditional Arabic lettering, ink chemistry, and mixed media abstraction.",
+      "department": "Fine Arts & Applied Media",
+      "studentId": "CU-2026-0974",
+      "phone": "+1 (555) 441-8899",
+      "joinedDate": "June 2026",
+      "points": 1190,
+      "gpa": "3.86",
+      "streakDays": 10,
+      "studyHours": 31,
+      "enrolledCourseIds": [
+        "crs-1",
+        "crs-3",
+        "crs-4"
+      ]
+    },
+    {
+      "id": "usr-10",
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "password": "password123",
+      "role": "student",
+      "status": "approved",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80",
+      "title": "Concept Art & Character Anatomy Student",
+      "bio": "Focusing on dynamic life studies, musculoskeletal forms, and production illustration pipelines.",
+      "department": "Digital Arts & Animation",
+      "studentId": "CU-2026-0988",
+      "phone": "+1 (555) 612-4490",
+      "joinedDate": "July 2026",
+      "points": 1220,
+      "gpa": "3.84",
+      "streakDays": 8,
+      "studyHours": 28,
+      "enrolledCourseIds": [
+        "crs-2",
+        "crs-4",
+        "crs-6"
+      ]
+    },
+    {
+      "id": "usr-11",
+      "name": "Chloe Bennett",
+      "email": "chloe.bennett@example.com",
+      "password": "password123",
+      "role": "student",
+      "status": "pending",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80",
+      "title": "Prospective Student",
+      "bio": "Applying for Spring 2027 enrollment in UI Architecture.",
+      "department": "Prospective - School of Design",
+      "studentId": "CU-2026-APP-17",
+      "phone": "+1 (555) 789-3321",
+      "joinedDate": "October 2026",
+      "registrationNotes": "Submitted design portfolio link and transcripts. Pending faculty review.",
+      "enrolledCourseIds": []
+    },
+    {
+      "id": "usr-12",
+      "name": "Amara Okafor",
+      "email": "amara.okafor@example.com",
+      "password": "password123",
+      "role": "student",
+      "status": "pending",
+      "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=300&q=80",
+      "title": "Prospective Student",
+      "bio": "Applicant for Classical Calligraphy & Typography apprenticeship.",
+      "department": "Prospective - Fine Arts",
+      "studentId": "CU-2026-APP-18",
+      "phone": "+1 (555) 902-1144",
+      "joinedDate": "October 2026",
+      "registrationNotes": "Letter of recommendation uploaded. Portfolio review pending.",
+      "enrolledCourseIds": []
+    }
+  ],
+  "courses": [
+    {
+      "id": "crs-1",
+      "code": "ART-201",
+      "title": "Modern Art & Contemporary Expression",
+      "category": "Fine Arts",
+      "instructorId": "usr-3",
+      "instructorName": "Prof. Alicia Mayer",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "level": "Beginner level",
+      "duration": "10 Weeks",
+      "totalLessons": 8,
+      "completedLessons": 5,
+      "progress": 63,
+      "studentsCount": 5,
+      "rating": 4.9,
+      "color": "#1e3f33",
+      "badge": "Popular",
+      "thumbnail": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?auto=format&fit=crop&w=600&q=80",
+      "description": "Explore the evolution of modernist aesthetics, abstract composition, balance, and contemporary gallery critiques with weekly studio workshops.",
+      "schedule": "Mon & Wed • 10:00 AM - 12:00 PM",
+      "room": "Studio Hall 4B",
+      "syllabus": [
+        {
+          "unit": "Unit 1",
+          "title": "Foundations of Modernism & Cubist Forms",
+          "lessons": 3
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Color Vibrancy & Bauhaus Composition",
+          "lessons": 2
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Expressionist Techniques & Mixed Media",
+          "lessons": 3
+        }
+      ],
+      "customLessons": {
+        "0": [
+          {
+            "id": "undefined-u1-l1",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Core Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l2",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Core Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l3",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Core Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "1": [
+          {
+            "id": "undefined-u2-l1",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l2",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l3",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "2": [
+          {
+            "id": "undefined-u3-l1",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l2",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l3",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "crs-2",
+      "code": "DSN-340",
+      "title": "Advanced Sketching & Anatomy",
+      "category": "Illustration",
+      "instructorId": "usr-4",
+      "instructorName": "Mika Dickens",
+      "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "level": "Advanced level",
+      "duration": "8 Weeks",
+      "totalLessons": 6,
+      "completedLessons": 2,
+      "progress": 33,
+      "studentsCount": 3,
+      "rating": 4.8,
+      "color": "#de9e36",
+      "badge": "Featured",
+      "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80",
+      "description": "Master dynamic gestures, complex organic perspective, foreshortening, and expressive digital line weights for character design.",
+      "schedule": "Tue & Thu • 2:00 PM - 4:00 PM",
+      "room": "Digital Lab 202",
+      "syllabus": [
+        {
+          "unit": "Unit 1",
+          "title": "Rapid Gesture & Silhouette Building",
+          "lessons": 2
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Structural Anatomy & Bone Landmarks",
+          "lessons": 2
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Lighting Shading & Texture Rendering",
+          "lessons": 2
+        }
+      ],
+      "customLessons": {
+        "0": [
+          {
+            "id": "undefined-u1-l1",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Core Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l2",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Core Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l3",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Core Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "1": [
+          {
+            "id": "undefined-u2-l1",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l2",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l3",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "2": [
+          {
+            "id": "undefined-u3-l1",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l2",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l3",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "crs-3",
+      "code": "TYP-105",
+      "title": "Arabic Calligraphy & Letterform Craft",
+      "category": "Typography",
+      "instructorId": "usr-3",
+      "instructorName": "Prof. Alicia Mayer",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "level": "Intermediate level",
+      "duration": "6 Weeks",
+      "totalLessons": 7,
+      "completedLessons": 7,
+      "progress": 100,
+      "studentsCount": 4,
+      "rating": 5,
+      "color": "#9cb49a",
+      "badge": "Certificate Included",
+      "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+      "description": "Discover the heritage of Thuluth and Naskh scripts, proportional dot measuring, reed pen techniques, and contemporary editorial typography.",
+      "schedule": "Friday • 9:00 AM - 1:00 PM",
+      "room": "Calligraphy Sanctuary",
+      "syllabus": [
+        {
+          "unit": "Unit 1",
+          "title": "The Geometry of Nuqta (Measurement Dots)",
+          "lessons": 2
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Naskh Script Precision & Flow",
+          "lessons": 3
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Thuluth Monumental Compositions",
+          "lessons": 2
+        }
+      ],
+      "customLessons": {
+        "0": [
+          {
+            "id": "undefined-u1-l1",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Core Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l2",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Core Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l3",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Core Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "1": [
+          {
+            "id": "undefined-u2-l1",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l2",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l3",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "2": [
+          {
+            "id": "undefined-u3-l1",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l2",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l3",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "crs-4",
+      "code": "DEV-410",
+      "title": "Cache Up: UI Architecture & Systems",
+      "category": "Computer Science",
+      "instructorId": "usr-4",
+      "instructorName": "Mika Dickens",
+      "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "level": "Intermediate level",
+      "duration": "12 Weeks",
+      "totalLessons": 10,
+      "completedLessons": 4,
+      "progress": 40,
+      "studentsCount": 6,
+      "rating": 4.95,
+      "color": "#232724",
+      "badge": "Core Curriculum",
+      "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
+      "description": "Frontend state caching, optimistic UI patterns, modern React layout systems, and responsive micro-interactions for modern web applications.",
+      "schedule": "Mon & Thu • 4:30 PM - 6:30 PM",
+      "room": "Turing Lecture Hall",
+      "syllabus": [
+        {
+          "unit": "Unit 1",
+          "title": "State Mechanics & Context Providers",
+          "lessons": 3
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Caching Strategies & Stale-While-Revalidate",
+          "lessons": 4
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Production Performance & Vercel Edge",
+          "lessons": 3
+        }
+      ],
+      "customLessons": {
+        "0": [
+          {
+            "id": "undefined-u1-l1",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Core Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l2",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Core Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l3",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Core Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "1": [
+          {
+            "id": "undefined-u2-l1",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l2",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l3",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "2": [
+          {
+            "id": "undefined-u3-l1",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l2",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l3",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "crs-5",
+      "code": "CRT-210",
+      "title": "Fine Arts Portfolio Seminar",
+      "category": "Fine Arts",
+      "instructorId": "usr-3",
+      "instructorName": "Prof. Alicia Mayer",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "level": "Intermediate level",
+      "duration": "8 Weeks",
+      "totalLessons": 5,
+      "completedLessons": 3,
+      "progress": 60,
+      "studentsCount": 5,
+      "rating": 4.92,
+      "color": "#b45309",
+      "badge": "Studio Critique",
+      "thumbnail": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=600&q=80",
+      "description": "Curate, critique, and refine professional visual portfolios through weekly faculty and peer studio critiques, exhibition staging, and artist statements.",
+      "schedule": "Monday • 2:00 PM - 5:00 PM",
+      "room": "MB 502",
+      "syllabus": [
+        {
+          "unit": "Unit 1",
+          "title": "Artist Statement & Visual Cohesion",
+          "lessons": 2
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Studio Critique Protocols & Iterative Refinement",
+          "lessons": 1
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Gallery Staging & Professional Portfolio Archiving",
+          "lessons": 2
+        }
+      ],
+      "customLessons": {
+        "0": [
+          {
+            "id": "undefined-u1-l1",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Core Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l2",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Core Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l3",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Core Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "1": [
+          {
+            "id": "undefined-u2-l1",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l2",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l3",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "2": [
+          {
+            "id": "undefined-u3-l1",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l2",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l3",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "crs-6",
+      "code": "ILL-302",
+      "title": "Digital Figure Illustration Lab",
+      "category": "Illustration",
+      "instructorId": "usr-4",
+      "instructorName": "Mika Dickens",
+      "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "level": "Intermediate level",
+      "duration": "10 Weeks",
+      "totalLessons": 8,
+      "completedLessons": 4,
+      "progress": 50,
+      "studentsCount": 3,
+      "rating": 4.88,
+      "color": "#be185d",
+      "badge": "Weekend Studio",
+      "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80",
+      "description": "Deep-dive weekend workshop on dynamic life drawing, digital tablet gesture capturing, anatomical musculature, and quick-sketch character posing.",
+      "schedule": "Sat & Sun • 11:00 AM - 2:00 PM",
+      "room": "JRF 104",
+      "syllabus": [
+        {
+          "unit": "Unit 1",
+          "title": "Dynamic Gesture & Live Model Capturing",
+          "lessons": 3
+        },
+        {
+          "unit": "Unit 2",
+          "title": "Musculature Systems & Torso / Limb Rhythms",
+          "lessons": 2
+        },
+        {
+          "unit": "Unit 3",
+          "title": "Character Pose Expressiveness & Silhouette Weight",
+          "lessons": 3
+        }
+      ],
+      "customLessons": {
+        "0": [
+          {
+            "id": "undefined-u1-l1",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Core Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l2",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Core Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u1-l3",
+            "unitIdx": 0,
+            "unitLabel": "Unit 1",
+            "unitTitle": "Core Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Core Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Core Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Core Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Core Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 1: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "1": [
+          {
+            "id": "undefined-u2-l1",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l2",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u2-l3",
+            "unitIdx": 1,
+            "unitLabel": "Unit 2",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 2: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ],
+        "2": [
+          {
+            "id": "undefined-u3-l1",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 1,
+            "title": "Studio Foundations — Part 1: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 1:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 1",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 1 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l2",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 2,
+            "title": "Studio Foundations — Part 2: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 2:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 2",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 2 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          },
+          {
+            "id": "undefined-u3-l3",
+            "unitIdx": 2,
+            "unitLabel": "Unit 3",
+            "unitTitle": "Studio Foundations",
+            "lessonNumber": 3,
+            "title": "Studio Foundations — Part 3: Advanced Application",
+            "topicHeading": "Studio Foundations — Studio Deep-Dive",
+            "definition": "Building upon foundational theory, this lesson deepens your practical proficiency in Studio Foundations through structured studio methodology, creative problem solving, and critique analysis for undefined.",
+            "majorFunctionsTitle": "Key objectives for Lesson 3:",
+            "majorFunctions": [
+              "Demonstrate advanced command of visual language and technique in Studio Foundations.",
+              "Engage in peer critique and reflective iteration to refine visual fidelity.",
+              "Produce academy-level portfolio deliverables adhering to professional studio standards."
+            ],
+            "partsTitle": "Core Elements of Lesson 3",
+            "parts": [
+              {
+                "term": "Methodological Precision",
+                "desc": "Refining complex problem areas with iterative feedback and precision craft."
+              },
+              {
+                "term": "Portfolio Deliverable",
+                "desc": "Finalizing the submission piece with documented process work and conceptual rationale."
+              }
+            ],
+            "diagram": {
+              "top": "Unit 3: Part 3 Conceptual Brief",
+              "middle1": "Structured Exploration & Rapid Iteration",
+              "middle2": "Iterative Faculty & Peer Critique",
+              "bottom": "Final Milestone & Unit Deliverable"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "id": "asg-1",
+      "courseId": "crs-1",
+      "courseName": "Modern Art & Contemporary Expression",
+      "title": "Texture & Detail: Abstraction Study",
+      "description": "Analyze and draw any chosen everyday object by simplifying it into basic geometric shapes, adding varied surface tactile values.",
+      "publishedAt": "2026-10-08",
+      "dueDate": "2026-10-24",
+      "dueTime": "11:59 PM",
+      "duration": "2 hours 45 min",
+      "maxScore": 100,
+      "priority": "High",
+      "priorityColor": "gold",
+      "status": "Pending",
+      "rubric": [
+        {
+          "criteria": "Geometric Simplification",
+          "points": 30
+        },
+        {
+          "criteria": "Shading & Texture Richness",
+          "points": 40
+        },
+        {
+          "criteria": "Compositional Balance",
+          "points": 30
+        }
+      ],
+      "submissionTypes": [
+        "image",
+        "pdf",
+        "link"
+      ]
+    },
+    {
+      "id": "asg-2",
+      "courseId": "crs-2",
+      "courseName": "Advanced Sketching & Anatomy",
+      "title": "Circles & Ovals: Torso Foreshortening",
+      "description": "Your circles should vary in size and your ovals should vary in size, angle and openness to express three-dimensional thoracic volume.",
+      "publishedAt": "2026-10-10",
+      "dueDate": "2026-10-28",
+      "dueTime": "05:00 PM",
+      "duration": "3 hours",
+      "maxScore": 100,
+      "priority": "Low",
+      "priorityColor": "sage",
+      "status": "Pending",
+      "rubric": [
+        {
+          "criteria": "Perspective Accuracy",
+          "points": 40
+        },
+        {
+          "criteria": "Organic Contour Flow",
+          "points": 35
+        },
+        {
+          "criteria": "Clean Line Weight",
+          "points": 25
+        }
+      ],
+      "submissionTypes": [
+        "image",
+        "pdf"
+      ]
+    },
+    {
+      "id": "asg-3",
+      "courseId": "crs-1",
+      "courseName": "Modern Art & Contemporary Expression",
+      "title": "Color Palette Harmony & Mood Board",
+      "description": "Construct a 5-tone palette harmony based on warm earth pigments (forest green, sage, cream, gold, and charcoal). Explain mood connotations.",
+      "publishedAt": "2026-10-01",
+      "dueDate": "2026-10-12",
+      "dueTime": "11:59 PM",
+      "duration": "1 hour 30 min",
+      "maxScore": 100,
+      "priority": "Medium",
+      "priorityColor": "forest",
+      "status": "Graded",
+      "rubric": [
+        {
+          "criteria": "Palette Balance",
+          "points": 40
+        },
+        {
+          "criteria": "Contrast Ratios",
+          "points": 30
+        },
+        {
+          "criteria": "Written Rationale",
+          "points": 30
+        }
+      ],
+      "submissionTypes": [
+        "pdf",
+        "link"
+      ]
+    },
+    {
+      "id": "asg-4",
+      "courseId": "crs-3",
+      "courseName": "Arabic Calligraphy & Letterform Craft",
+      "title": "Mastering the Alif & Nuqta Proportions",
+      "description": "Submit high-resolution macro photography of five distinct handwritten Alif strokes calibrated to exactly seven diamond dots.",
+      "publishedAt": "2026-09-25",
+      "dueDate": "2026-10-05",
+      "dueTime": "06:00 PM",
+      "duration": "4 hours",
+      "maxScore": 100,
+      "priority": "High",
+      "priorityColor": "gold",
+      "status": "Graded",
+      "rubric": [
+        {
+          "criteria": "Nuqta Calibration",
+          "points": 50
+        },
+        {
+          "criteria": "Ink Uniformity",
+          "points": 25
+        },
+        {
+          "criteria": "Angle of Attack",
+          "points": 25
+        }
+      ],
+      "submissionTypes": [
+        "image",
+        "pdf"
+      ]
+    },
+    {
+      "id": "asg-5",
+      "courseId": "crs-5",
+      "courseName": "Fine Arts Portfolio Seminar",
+      "title": "Midterm Portfolio Curation & Artist Statement",
+      "description": "Compile a curated selection of 6 cohesive studio works with an accompanying 400-word artist statement reflecting conceptual themes and medium techniques.",
+      "publishedAt": "2026-10-10",
+      "dueDate": "2026-10-27",
+      "dueTime": "11:59 PM",
+      "duration": "3 hours",
+      "maxScore": 100,
+      "priority": "High",
+      "priorityColor": "gold",
+      "status": "Pending",
+      "rubric": [
+        {
+          "criteria": "Curatorial Cohesion",
+          "points": 35
+        },
+        {
+          "criteria": "Artist Statement Clarity",
+          "points": 35
+        },
+        {
+          "criteria": "Documentation & Presentation",
+          "points": 30
+        }
+      ],
+      "submissionTypes": [
+        "pdf",
+        "link"
+      ]
+    },
+    {
+      "id": "asg-6",
+      "courseId": "crs-6",
+      "courseName": "Digital Figure Illustration Lab",
+      "title": "Weekend 2-Minute Gesture & Pose Sequence",
+      "description": "Submit a contact sheet of fifteen 2-minute dynamic digital figure sketches exploring rhythm lines, weight shifts (contrapposto), and expressive silhouette contours.",
+      "publishedAt": "2026-10-12",
+      "dueDate": "2026-10-25",
+      "dueTime": "11:59 PM",
+      "duration": "2 hours",
+      "maxScore": 100,
+      "priority": "Medium",
+      "priorityColor": "sage",
+      "status": "Pending",
+      "rubric": [
+        {
+          "criteria": "Line of Action & Rhythm",
+          "points": 40
+        },
+        {
+          "criteria": "Proportional Weight & Balance",
+          "points": 30
+        },
+        {
+          "criteria": "Contour Economy & Line Weight",
+          "points": 30
+        }
+      ],
+      "submissionTypes": [
+        "image",
+        "pdf"
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1",
+      "assignmentId": "asg-3",
+      "assignmentTitle": "Color Palette Harmony & Mood Board",
+      "courseId": "crs-1",
+      "studentId": "usr-1",
+      "studentName": "Stella Walton",
+      "studentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-11 14:22",
+      "content": "Here is my complete color harmony study inspired by botanical garden moss and warm sunlight.",
+      "linkUrl": "https://example.com/project-palette-study",
+      "fileName": "Stella_Walton_Palette_Study.pdf",
+      "fileSize": "4.2 MB",
+      "status": "Graded",
+      "score": 95,
+      "maxScore": 100,
+      "feedback": "Outstanding balance and tonal rhythm, Stella! The combination of deep forest green with mustard gold evokes a rich organic texture. Minor note: watch the contrast on tertiary text.",
+      "gradedBy": "usr-3",
+      "gradedAt": "2026-10-12 10:15"
+    },
+    {
+      "id": "sub-2",
+      "assignmentId": "asg-4",
+      "assignmentTitle": "Mastering the Alif & Nuqta Proportions",
+      "courseId": "crs-3",
+      "studentId": "usr-1",
+      "studentName": "Stella Walton",
+      "studentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-04 18:30",
+      "content": "Bamboo qalam strokes on handmade parchment using traditional lampblack ink.",
+      "linkUrl": "https://cacheup-portfolio.vercel.app/calligraphy/alif",
+      "fileName": "Alif_Nuqta_Macro_Shots.zip",
+      "fileSize": "18.7 MB",
+      "status": "Graded",
+      "score": 98,
+      "maxScore": 100,
+      "feedback": "Flawless feathering and exquisite curvature. The seven diamond points are mathematically sublime. Exemplary work.",
+      "gradedBy": "usr-3",
+      "gradedAt": "2026-10-05 11:00"
+    },
+    {
+      "id": "sub-3",
+      "assignmentId": "asg-3",
+      "assignmentTitle": "Color Palette Harmony & Mood Board",
+      "courseId": "crs-1",
+      "studentId": "usr-2",
+      "studentName": "Melissa Anderson",
+      "studentAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-12 11:40",
+      "content": "Attached my chromatic study exploring sage green and cream contrasts for editorial websites.",
+      "linkUrl": "",
+      "fileName": "Melissa_Anderson_MoodBoard.pdf",
+      "fileSize": "3.1 MB",
+      "status": "Graded",
+      "score": 88,
+      "maxScore": 100,
+      "feedback": "Very elegant composition and subtle sage shades. Ensure you verify WCAG AAA compliance for the smallest text labels.",
+      "gradedBy": "usr-3",
+      "gradedAt": "2026-10-13 09:30"
+    },
+    {
+      "id": "sub-4",
+      "assignmentId": "asg-1",
+      "assignmentTitle": "Texture & Detail: Abstraction Study",
+      "courseId": "crs-1",
+      "studentId": "usr-2",
+      "studentName": "Melissa Anderson",
+      "studentAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-14 20:10",
+      "content": "Finished my study using 2B through 8B graphite pencils on Bristol vellum. Focused on wood grain cross-hatching.",
+      "linkUrl": "",
+      "fileName": "Anderson_Texture_Abstraction.png",
+      "fileSize": "8.4 MB",
+      "status": "Submitted",
+      "score": null,
+      "maxScore": 100,
+      "feedback": "",
+      "gradedBy": null,
+      "gradedAt": null
+    },
+    {
+      "id": "sub-5",
+      "assignmentId": "asg-2",
+      "assignmentTitle": "Circles & Ovals: Torso Foreshortening",
+      "courseId": "crs-2",
+      "studentId": "usr-8",
+      "studentName": "Lucas Scott",
+      "studentAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-15 17:35",
+      "content": "Attached my dynamic torso study demonstrating foreshortening and cylindrical volumetric shading.",
+      "linkUrl": "",
+      "fileName": "Lucas_Torso_Anatomy_Study.pdf",
+      "fileSize": "5.6 MB",
+      "status": "Submitted",
+      "score": null,
+      "maxScore": 100,
+      "feedback": "",
+      "gradedBy": null,
+      "gradedAt": null
+    },
+    {
+      "id": "sub-6",
+      "assignmentId": "asg-6",
+      "assignmentTitle": "Weekend 2-Minute Gesture & Pose Sequence",
+      "courseId": "crs-6",
+      "studentId": "usr-1",
+      "studentName": "Stella Walton",
+      "studentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-16 11:20",
+      "content": "Digital life model poses drawn on Procreate with 6B pencil brush. Explored contrapposto weight shifts.",
+      "linkUrl": "https://www.artstation.com/artwork/cacheup-gestures",
+      "fileName": "Stella_Gesture_Poses_ContactSheet.png",
+      "fileSize": "9.2 MB",
+      "status": "Submitted",
+      "score": null,
+      "maxScore": 100,
+      "feedback": "",
+      "gradedBy": null,
+      "gradedAt": null
+    },
+    {
+      "id": "sub-7",
+      "assignmentId": "asg-4",
+      "assignmentTitle": "Mastering the Alif & Nuqta Proportions",
+      "courseId": "crs-3",
+      "studentId": "usr-7",
+      "studentName": "Elena Rostova",
+      "studentAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-15 16:45",
+      "content": "Macro high-resolution documentation of Thuluth Alif proportions. Calibrated to seven diamond points with walnut gall ink on hot-pressed arches.",
+      "linkUrl": "",
+      "fileName": "Elena_Rostova_Alif_Nuqta_Study.pdf",
+      "fileSize": "6.4 MB",
+      "status": "Submitted",
+      "score": null,
+      "maxScore": 100,
+      "feedback": "",
+      "gradedBy": null,
+      "gradedAt": null
+    },
+    {
+      "id": "sub-8",
+      "assignmentId": "asg-5",
+      "assignmentTitle": "Midterm Portfolio Curation & Artist Statement",
+      "courseId": "crs-5",
+      "studentId": "usr-1",
+      "studentName": "Stella Walton",
+      "studentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "submissionDate": "2026-10-16 19:10",
+      "content": "Compiled my six-plate studio series exploring tectonic spatial rhythm and typographic hierarchy. Artist statement and documentation enclosed.",
+      "linkUrl": "https://www.behance.net/gallery/cacheup-midterm-curation",
+      "fileName": "Stella_Walton_Midterm_Portfolio.pdf",
+      "fileSize": "12.8 MB",
+      "status": "Submitted",
+      "score": null,
+      "maxScore": 100,
+      "feedback": "",
+      "gradedBy": null,
+      "gradedAt": null
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-1",
+      "courseId": "crs-1",
+      "courseTitle": "Modern Art & Contemporary Expression",
+      "title": "Syllabus & Lecture Notes: Modernist Principles",
+      "type": "pdf",
+      "size": "3.4 MB",
+      "uploadDate": "2026-09-15",
+      "uploadedBy": "Prof. Alicia Mayer",
+      "downloadUrl": "#",
+      "description": "Comprehensive 40-page course booklet with reading assignments and museum links."
+    },
+    {
+      "id": "mat-2",
+      "courseId": "crs-1",
+      "courseTitle": "Modern Art & Contemporary Expression",
+      "title": "Slide Deck: The Bauhaus Revolution & Asymmetry",
+      "type": "slides",
+      "size": "12.8 MB",
+      "uploadDate": "2026-10-02",
+      "uploadedBy": "Prof. Alicia Mayer",
+      "downloadUrl": "#",
+      "description": "Presentation slides featuring high-res scans of Wassily Kandinsky and Paul Klee exercises."
+    },
+    {
+      "id": "mat-3",
+      "courseId": "crs-2",
+      "courseTitle": "Advanced Sketching & Anatomy",
+      "title": "Anatomy Cheat Sheet: Human Torso & Muscle Insertion",
+      "type": "image",
+      "size": "6.1 MB",
+      "uploadDate": "2026-09-28",
+      "uploadedBy": "Mika Dickens",
+      "downloadUrl": "#",
+      "description": "Quick visual reference for pectorals, ribcage volumes, and deltoid origins."
+    },
+    {
+      "id": "mat-4",
+      "courseId": "crs-4",
+      "courseTitle": "Cache Up: UI Architecture & Systems",
+      "title": "React 19 & Tailwind v4 Starter Kit Repository",
+      "type": "code",
+      "size": "1.2 MB",
+      "uploadDate": "2026-10-10",
+      "uploadedBy": "Mika Dickens",
+      "downloadUrl": "https://example.com/starter-kit",
+      "description": "Boilerplate repository with state machine context, accessible modals, and tokenized design system."
+    },
+    {
+      "id": "mat-5",
+      "courseId": "crs-3",
+      "courseTitle": "Arabic Calligraphy & Letterform Craft",
+      "title": "Qalam Cutting Angle & Ink Preparation Video Guide",
+      "type": "video",
+      "size": "48.0 MB",
+      "uploadDate": "2026-09-20",
+      "uploadedBy": "Prof. Alicia Mayer",
+      "downloadUrl": "#",
+      "description": "15-minute demonstration on trimming Jawi reed pens at a 35-degree angle."
+    },
+    {
+      "id": "mat-6",
+      "courseId": "crs-5",
+      "courseTitle": "Fine Arts Portfolio Seminar",
+      "title": "Portfolio Curation Standards & Gallery Layout Guide",
+      "type": "pdf",
+      "size": "5.2 MB",
+      "uploadDate": "2026-10-01",
+      "uploadedBy": "Prof. Alicia Mayer",
+      "downloadUrl": "#",
+      "description": "Guidelines on formatting high-resolution image plates, exhibition catalogs, and lighting arrangements."
+    },
+    {
+      "id": "mat-7",
+      "courseId": "crs-6",
+      "courseTitle": "Digital Figure Illustration Lab",
+      "title": "Figure Anatomy Landmarks & Contrapposto Cheatsheet",
+      "type": "pdf",
+      "size": "8.1 MB",
+      "uploadDate": "2026-10-05",
+      "uploadedBy": "Mika Dickens",
+      "downloadUrl": "#",
+      "description": "Visual reference guide detailing major skeletal landmarks, pelvis tilting, and quick line-of-action workflows."
+    }
+  ],
+  "announcements": [
+    {
+      "id": "anc-1",
+      "title": "End of Term Exhibition: Art Academy Gallery Showcase",
+      "courseId": "all",
+      "courseName": "All Courses & Academy Wide",
+      "authorName": "Prof. Alicia Mayer",
+      "authorRole": "Head of Fine Arts",
+      "authorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "date": "2026-10-14",
+      "priority": "Urgent",
+      "isRead": false,
+      "content": "We are thrilled to announce that student works from \"Modern Art\" and \"Advanced Sketching\" will be showcased in the Central Hall gallery next month. Final submissions must be mounted by Nov 5th."
+    },
+    {
+      "id": "anc-2",
+      "title": "Guest Lecture: Creative Directors from Pentagram Design",
+      "courseId": "crs-1",
+      "courseName": "Modern Art & Contemporary Expression",
+      "authorName": "Prof. Alicia Mayer",
+      "authorRole": "Course Instructor",
+      "authorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "date": "2026-10-12",
+      "priority": "Normal",
+      "isRead": true,
+      "content": "Join us this Thursday at 3:00 PM for an interactive Q&A session on transitioning from fine arts into studio branding and design leadership."
+    },
+    {
+      "id": "anc-3",
+      "title": "Platform Maintenance & Cloud Storage Upgrade",
+      "courseId": "all",
+      "courseName": "System Administration",
+      "authorName": "Marcus Vance",
+      "authorRole": "Dean of Registry",
+      "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "date": "2026-10-10",
+      "priority": "Info",
+      "isRead": true,
+      "content": "The CacheUp repository is receiving an edge upgrade on Vercel this Saturday from 2:00 AM to 3:00 AM UTC. No coursework data will be interrupted."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-1",
+      "courseId": "crs-1",
+      "courseName": "Modern Art & Contemporary Expression",
+      "unitIdx": 0,
+      "title": "Color Theory & Harmonic Schemes Quiz",
+      "description": "Assess your foundational understanding of primary, secondary, and complementary color harmonies, warm vs cool balance, and optical contrast.",
+      "dueDate": "2026-10-26",
+      "dueTime": "11:59 PM",
+      "duration": "20 minutes",
+      "timeLimitMinutes": 20,
+      "passingScorePercent": 70,
+      "totalPoints": 40,
+      "status": "Active",
+      "publishedAt": "2026-10-15",
+      "questions": [
+        {
+          "id": "q-1-1",
+          "prompt": "Which color scheme utilizes three hues that are evenly spaced around the 12-hue color wheel?",
+          "points": 10,
+          "options": [
+            "Analogous",
+            "Complementary",
+            "Triadic",
+            "Monochromatic"
+          ],
+          "correctOptionIndex": 2,
+          "explanation": "A triadic color scheme forms an equilateral triangle on the color wheel (e.g. Red, Yellow, and Blue)."
+        },
+        {
+          "id": "q-1-2",
+          "prompt": "When two complementary colors are placed directly adjacent at full saturation, what visual effect is produced?",
+          "points": 10,
+          "options": [
+            "Simultaneous contrast and optical vibration",
+            "Desaturation of both pigments",
+            "Monochromatic shadow blending",
+            "Subtractive opacity loss"
+          ],
+          "correctOptionIndex": 0,
+          "explanation": "Complementary pairs create the highest possible chromatic tension and vivid contrast when juxtaposed."
+        },
+        {
+          "id": "q-1-3",
+          "prompt": "In traditional fine art pigment mixing, what is the term for a color produced by adding white to a pure hue?",
+          "points": 10,
+          "options": [
+            "Shade",
+            "Tone",
+            "Tint",
+            "Glaze"
+          ],
+          "correctOptionIndex": 2,
+          "explanation": "A tint is made by adding white. A shade is created by adding black, and a tone is created with neutral grey."
+        },
+        {
+          "id": "q-1-4",
+          "prompt": "In two-dimensional pictorial space, warm colors (reds, yellows, oranges) typically have what spatial tendency?",
+          "points": 10,
+          "options": [
+            "Recede visually into background space",
+            "Advance forward toward the viewer",
+            "Neutralize all planar depth",
+            "Invert linear perspective"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "Longer wavelength warm colors visually expand and advance, whereas shorter wavelength cool colors recede."
+        }
+      ]
+    },
+    {
+      "id": "quiz-2",
+      "courseId": "crs-2",
+      "courseName": "Advanced Sketching & Anatomy",
+      "unitIdx": 0,
+      "title": "Human Proportions & Volumetric Skeletal Form Quiz",
+      "description": "Test your grasp of classical 8-head proportional ratios, contrapposto balance axes, and thoracic foreshortening.",
+      "dueDate": "2026-10-29",
+      "dueTime": "05:00 PM",
+      "duration": "15 minutes",
+      "timeLimitMinutes": 15,
+      "passingScorePercent": 75,
+      "totalPoints": 30,
+      "status": "Active",
+      "publishedAt": "2026-10-16",
+      "questions": [
+        {
+          "id": "q-2-1",
+          "prompt": "In classical idealistic figure drawing, the adult human body is traditionally calibrated to how many head lengths tall?",
+          "points": 10,
+          "options": [
+            "6 heads",
+            "7.5 to 8 heads",
+            "9.5 heads",
+            "11 heads"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "The standard classical academic canon measures an adult standing figure at approximately 7.5 to 8 heads tall."
+        },
+        {
+          "id": "q-2-2",
+          "prompt": "What happens to the pelvis and shoulder axes during a dynamic contrapposto stance?",
+          "points": 10,
+          "options": [
+            "They remain strictly parallel",
+            "They tilt in opposite directions (counter-opposed)",
+            "They lock into a rigid 90-degree square",
+            "They align horizontally with the floor"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "Contrapposto shifts weight to one leg, causing the pelvic tilt to oppose the shoulder tilt in an organic S-curve rhythm."
+        },
+        {
+          "id": "q-2-3",
+          "prompt": "When drawing a cylinder or limb projecting directly toward the viewer, which drafting technique is crucial to convey depth?",
+          "points": 10,
+          "options": [
+            "Parallel cross-hatching without contour curvature",
+            "Overlapping volumetric ellipses and foreshortened contour wrapping",
+            "Strict flat silhouette rendering",
+            "Removing all cast shadows"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "Curved cross-contour wrapping lines and overlapping elliptical forms communicate cylindrical compression toward the viewer."
+        }
+      ]
+    },
+    {
+      "id": "quiz-3",
+      "courseId": "crs-3",
+      "courseName": "Arabic Calligraphy & Letterform Craft",
+      "unitIdx": 0,
+      "title": "Nuqta Metric System & Qalam Geometry Quiz",
+      "description": "Verify your knowledge of proportional script measurements, pen nib slicing angles, and classical Islamic calligraphy rules.",
+      "dueDate": "2026-10-31",
+      "dueTime": "06:00 PM",
+      "duration": "15 minutes",
+      "timeLimitMinutes": 15,
+      "passingScorePercent": 70,
+      "totalPoints": 30,
+      "status": "Active",
+      "publishedAt": "2026-10-17",
+      "questions": [
+        {
+          "id": "q-3-1",
+          "prompt": "In the proportioned script system (al-Khatt al-Mansub) formalized by Ibn Muqla, what is the foundational unit of measurement?",
+          "points": 10,
+          "options": [
+            "The centimeter",
+            "The Nuqta (rhomboid dot made by the pen nib)",
+            "The diameter of the inkpot",
+            "The length of the parchment"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "The Nuqta (rhombic dot created by pressing the cut reed nib flat on parchment) is the master unit calibrating all letter heights."
+        },
+        {
+          "id": "q-3-2",
+          "prompt": "In classical Thuluth script, the master letter Alif is conventionally calibrated to a height of how many Nuqtas?",
+          "points": 10,
+          "options": [
+            "3 Nuqtas",
+            "5 Nuqtas",
+            "7 Nuqtas",
+            "12 Nuqtas"
+          ],
+          "correctOptionIndex": 2,
+          "explanation": "The majestic vertical stroke of the Alif in classical Thuluth is precisely 7 rhomboid Nuqta dots high."
+        },
+        {
+          "id": "q-3-3",
+          "prompt": "What angle is standard for trimming the nib of a traditional reed pen (Qalam) for Naskh or Thuluth script?",
+          "points": 10,
+          "options": [
+            "Straight 90-degree cut",
+            "Oblique slant between 35 to 45 degrees",
+            "15-degree acute puncture",
+            "Conical ballpoint grind"
+          ],
+          "correctOptionIndex": 1,
+          "explanation": "A 35° to 45° angled oblique bevel gives the calligrapher simultaneous control over hairline connections and broad downstrokes."
+        }
+      ]
+    }
+  ],
+  "quizSubmissions": [
+    {
+      "id": "qsub-1",
+      "quizId": "quiz-1",
+      "quizTitle": "Color Theory & Harmonic Schemes Quiz",
+      "courseId": "crs-1",
+      "courseName": "Modern Art & Contemporary Expression",
+      "studentId": "usr-1",
+      "studentName": "Stella Walton",
+      "studentAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+      "submittedAt": "2026-10-18 16:30",
+      "answers": {
+        "q-1-1": 2,
+        "q-1-2": 0,
+        "q-1-3": 2,
+        "q-1-4": 1
+      },
+      "score": 40,
+      "maxScore": 40,
+      "percentage": 100,
+      "passed": true,
+      "timeSpent": "8 min 42 sec"
+    }
+  ],
+  "schedules": {
+    "usr-1": {
+      "title": "Stella Walton — Weekly Studio & Lab Schedule",
+      "items": [
+        {
+          "id": "sch-stella-1",
+          "code": "ART-201",
+          "title": "Modern Art & Expression",
+          "courseId": "crs-1",
+          "course": "Modern Art & Contemporary Expression",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "07:30",
+          "endTime": "09:00",
+          "time": "7:30AM - 9:00AM",
+          "date": "2026-10-15",
+          "color": "sage",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Studio 4B"
+        },
+        {
+          "id": "sch-stella-2",
+          "code": "DSN-340",
+          "title": "Advanced Sketching & Anatomy",
+          "courseId": "crs-2",
+          "course": "Advanced Sketching & Anatomy",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "09:30",
+          "endTime": "11:00",
+          "time": "9:30AM - 11:00AM",
+          "date": "2026-10-15",
+          "color": "mint",
+          "instructor": "Mika Dickens",
+          "location": "Lab 202"
+        },
+        {
+          "id": "sch-stella-3",
+          "code": "TYP-105",
+          "title": "Typography & Letterform",
+          "courseId": "crs-3",
+          "course": "Arabic Calligraphy & Letterform Craft",
+          "days": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "day": "Tue, Thu",
+          "startTime": "09:30",
+          "endTime": "12:00",
+          "time": "9:30AM - 12:00PM",
+          "date": "2026-10-15",
+          "color": "teal",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Hall 105"
+        },
+        {
+          "id": "sch-stella-4",
+          "code": "CRT-210",
+          "title": "Studio Critique Seminar",
+          "courseId": "crs-5",
+          "course": "Fine Arts Portfolio Seminar",
+          "days": [
+            "Monday"
+          ],
+          "day": "Monday",
+          "startTime": "14:00",
+          "endTime": "17:00",
+          "time": "2:00PM - 5:00PM",
+          "date": "2026-10-19",
+          "color": "coral",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "MB 502"
+        },
+        {
+          "id": "sch-stella-5",
+          "code": "ILL-302",
+          "title": "Digital Figure Life Lab",
+          "courseId": "crs-6",
+          "course": "Digital Figure Illustration Lab",
+          "days": [
+            "Saturday",
+            "Sunday"
+          ],
+          "day": "Sat, Sun",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "time": "11:00AM - 2:00PM",
+          "date": "2026-10-18",
+          "color": "amber",
+          "instructor": "Mika Dickens",
+          "location": "JRF 104"
+        }
+      ]
+    },
+    "usr-2": {
+      "title": "Melissa Anderson — UX & UI Studio Timetable",
+      "items": [
+        {
+          "id": "sch-melissa-1",
+          "code": "ART-201",
+          "title": "Modern Art & Expression",
+          "courseId": "crs-1",
+          "course": "Modern Art & Contemporary Expression",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "time": "10:00AM - 12:00PM",
+          "date": "2026-10-15",
+          "color": "sage",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Studio 4B"
+        },
+        {
+          "id": "sch-melissa-2",
+          "code": "TYP-105",
+          "title": "Letterform & Layout Craft",
+          "courseId": "crs-3",
+          "course": "Arabic Calligraphy & Letterform Craft",
+          "days": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "day": "Tue, Thu",
+          "startTime": "13:00",
+          "endTime": "15:30",
+          "time": "1:00PM - 3:30PM",
+          "date": "2026-10-15",
+          "color": "teal",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Hall 105"
+        },
+        {
+          "id": "sch-melissa-3",
+          "code": "DEV-410",
+          "title": "UI Architecture Lab",
+          "courseId": "crs-4",
+          "course": "Cache Up: UI Architecture & Systems",
+          "days": [
+            "Friday"
+          ],
+          "day": "Friday",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "time": "11:00AM - 2:00PM",
+          "date": "2026-10-16",
+          "color": "lavender",
+          "instructor": "Mika Dickens",
+          "location": "Turing Lecture Hall"
+        },
+        {
+          "id": "sch-melissa-4",
+          "code": "CRT-210",
+          "title": "Studio Critique Seminar",
+          "courseId": "crs-5",
+          "course": "Fine Arts Portfolio Seminar",
+          "days": [
+            "Monday"
+          ],
+          "day": "Monday",
+          "startTime": "14:00",
+          "endTime": "17:00",
+          "time": "2:00PM - 5:00PM",
+          "date": "2026-10-19",
+          "color": "coral",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "MB 502"
+        }
+      ]
+    },
+    "usr-6": {
+      "title": "Lucas Perez — Concept Art & Digital Illustration Schedule",
+      "items": [
+        {
+          "id": "sch-lucas-1",
+          "code": "DSN-340",
+          "title": "Advanced Sketching & Anatomy",
+          "courseId": "crs-2",
+          "course": "Advanced Sketching & Anatomy",
+          "days": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "day": "Tue, Thu",
+          "startTime": "14:00",
+          "endTime": "16:00",
+          "time": "2:00PM - 4:00PM",
+          "date": "2026-10-15",
+          "color": "mint",
+          "instructor": "Mika Dickens",
+          "location": "Digital Lab 202"
+        },
+        {
+          "id": "sch-lucas-2",
+          "code": "DEV-410",
+          "title": "UI Architecture & Layouts",
+          "courseId": "crs-4",
+          "course": "Cache Up: UI Architecture & Systems",
+          "days": [
+            "Monday",
+            "Thursday"
+          ],
+          "day": "Mon, Thu",
+          "startTime": "16:30",
+          "endTime": "18:30",
+          "time": "4:30PM - 6:30PM",
+          "date": "2026-10-15",
+          "color": "lavender",
+          "instructor": "Mika Dickens",
+          "location": "Turing Hall"
+        },
+        {
+          "id": "sch-lucas-3",
+          "code": "ILL-302",
+          "title": "Digital Figure Life Lab",
+          "courseId": "crs-6",
+          "course": "Digital Figure Illustration Lab",
+          "days": [
+            "Saturday",
+            "Sunday"
+          ],
+          "day": "Sat, Sun",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "time": "11:00AM - 2:00PM",
+          "date": "2026-10-18",
+          "color": "amber",
+          "instructor": "Mika Dickens",
+          "location": "JRF 104"
+        }
+      ]
+    },
+    "usr-7": {
+      "title": "Elena Rostova — Classical Studio & Typography Schedule",
+      "items": [
+        {
+          "id": "sch-elena-1",
+          "code": "ART-201",
+          "title": "Modern Art & Composition",
+          "courseId": "crs-1",
+          "course": "Modern Art & Contemporary Expression",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "08:30",
+          "endTime": "10:30",
+          "time": "8:30AM - 10:30AM",
+          "date": "2026-10-15",
+          "color": "sage",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Studio Hall 4B"
+        },
+        {
+          "id": "sch-elena-2",
+          "code": "TYP-105",
+          "title": "Letterform & Thuluth Workshop",
+          "courseId": "crs-3",
+          "course": "Arabic Calligraphy & Letterform Craft",
+          "days": [
+            "Friday"
+          ],
+          "day": "Friday",
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "time": "9:00AM - 1:00PM",
+          "date": "2026-10-16",
+          "color": "teal",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Calligraphy Sanctuary"
+        },
+        {
+          "id": "sch-elena-3",
+          "code": "CRT-210",
+          "title": "Fine Arts Portfolio Critique",
+          "courseId": "crs-5",
+          "course": "Fine Arts Portfolio Seminar",
+          "days": [
+            "Monday"
+          ],
+          "day": "Monday",
+          "startTime": "14:00",
+          "endTime": "17:00",
+          "time": "2:00PM - 5:00PM",
+          "date": "2026-10-19",
+          "color": "coral",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "MB 502"
+        }
+      ]
+    },
+    "usr-3": {
+      "title": "Prof. Alicia Mayer — Faculty Studio & Teaching Timetable",
+      "items": [
+        {
+          "id": "sch-alicia-1",
+          "code": "ART-201",
+          "title": "Modern Art & Expression Lecture",
+          "courseId": "crs-1",
+          "course": "Modern Art & Contemporary Expression",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "08:30",
+          "endTime": "11:00",
+          "time": "8:30AM - 11:00AM",
+          "date": "2026-10-15",
+          "color": "sage",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Studio Hall 4B"
+        },
+        {
+          "id": "sch-alicia-2",
+          "code": "TYP-105",
+          "title": "Arabic Calligraphy Masterclass",
+          "courseId": "crs-3",
+          "course": "Arabic Calligraphy & Letterform Craft",
+          "days": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "day": "Tue, Thu",
+          "startTime": "09:30",
+          "endTime": "12:00",
+          "time": "9:30AM - 12:00PM",
+          "date": "2026-10-15",
+          "color": "teal",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Calligraphy Sanctuary"
+        },
+        {
+          "id": "sch-alicia-3",
+          "code": "CRT-210",
+          "title": "Senior Portfolio Critique Seminar",
+          "courseId": "crs-5",
+          "course": "Fine Arts Portfolio Seminar",
+          "days": [
+            "Monday"
+          ],
+          "day": "Monday",
+          "startTime": "14:00",
+          "endTime": "17:00",
+          "time": "2:00PM - 5:00PM",
+          "date": "2026-10-19",
+          "color": "coral",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "MB 502"
+        },
+        {
+          "id": "sch-alicia-4",
+          "code": "FAC-100",
+          "title": "Faculty Curriculum Review",
+          "courseId": "crs-1",
+          "course": "Department Assembly",
+          "days": [
+            "Wednesday"
+          ],
+          "day": "Wednesday",
+          "startTime": "14:00",
+          "endTime": "15:30",
+          "time": "2:00PM - 3:30PM",
+          "date": "2026-10-15",
+          "color": "slate",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Faculty Hall A"
+        }
+      ]
+    },
+    "usr-4": {
+      "title": "Mika Dickens — Digital Arts Teaching & Lab Timetable",
+      "items": [
+        {
+          "id": "sch-mika-1",
+          "code": "DSN-340",
+          "title": "Advanced Sketching & Anatomy Lab",
+          "courseId": "crs-2",
+          "course": "Advanced Sketching & Anatomy",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "09:30",
+          "endTime": "11:30",
+          "time": "9:30AM - 11:30AM",
+          "date": "2026-10-15",
+          "color": "mint",
+          "instructor": "Mika Dickens",
+          "location": "Digital Lab 202"
+        },
+        {
+          "id": "sch-mika-2",
+          "code": "DEV-410",
+          "title": "UI Architecture Masterclass",
+          "courseId": "crs-4",
+          "course": "Cache Up: UI Architecture & Systems",
+          "days": [
+            "Friday"
+          ],
+          "day": "Friday",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "time": "11:00AM - 2:00PM",
+          "date": "2026-10-16",
+          "color": "lavender",
+          "instructor": "Mika Dickens",
+          "location": "Turing Hall"
+        },
+        {
+          "id": "sch-mika-3",
+          "code": "ILL-302",
+          "title": "Figure Life Drawing Studio",
+          "courseId": "crs-6",
+          "course": "Digital Figure Illustration Lab",
+          "days": [
+            "Saturday",
+            "Sunday"
+          ],
+          "day": "Sat, Sun",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "time": "11:00AM - 2:00PM",
+          "date": "2026-10-18",
+          "color": "amber",
+          "instructor": "Mika Dickens",
+          "location": "JRF 104"
+        },
+        {
+          "id": "sch-mika-4",
+          "code": "LAB-OH",
+          "title": "Digital Lab Office Hours",
+          "courseId": "crs-2",
+          "course": "Student Mentorship & Critique",
+          "days": [
+            "Tuesday"
+          ],
+          "day": "Tuesday",
+          "startTime": "13:00",
+          "endTime": "15:00",
+          "time": "1:00PM - 3:00PM",
+          "date": "2026-10-15",
+          "color": "slate",
+          "instructor": "Mika Dickens",
+          "location": "Lab 202"
+        }
+      ]
+    },
+    "usr-5": {
+      "title": "Marcus Vance — Academic Administration (No Class Schedules)",
+      "items": []
+    },
+    "usr-8": {
+      "title": "Julian Vance — UI Architecture & Studio Schedule",
+      "items": [
+        {
+          "id": "sch-julian-1",
+          "code": "ART-201",
+          "title": "Modern Art & Expression",
+          "courseId": "crs-1",
+          "course": "Modern Art & Contemporary Expression",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "time": "10:00AM - 12:00PM",
+          "date": "2026-10-19",
+          "color": "sage",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Studio Hall 4B"
+        },
+        {
+          "id": "sch-julian-2",
+          "code": "DEV-410",
+          "title": "Cache Up: UI Architecture",
+          "courseId": "crs-4",
+          "course": "Cache Up: UI Architecture & Systems",
+          "days": [
+            "Monday",
+            "Thursday"
+          ],
+          "day": "Mon, Thu",
+          "startTime": "16:30",
+          "endTime": "18:30",
+          "time": "4:30PM - 6:30PM",
+          "date": "2026-10-19",
+          "color": "lavender",
+          "instructor": "Mika Dickens",
+          "location": "Turing Lecture Hall"
+        },
+        {
+          "id": "sch-julian-3",
+          "code": "CRT-210",
+          "title": "Portfolio Seminar Critique",
+          "courseId": "crs-5",
+          "course": "Fine Arts Portfolio Seminar",
+          "days": [
+            "Monday"
+          ],
+          "day": "Monday",
+          "startTime": "14:00",
+          "endTime": "17:00",
+          "time": "2:00PM - 5:00PM",
+          "date": "2026-10-19",
+          "color": "coral",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "MB 502"
+        }
+      ]
+    },
+    "usr-9": {
+      "title": "Maya Lin — Calligraphy & Contemporary Arts Schedule",
+      "items": [
+        {
+          "id": "sch-maya-1",
+          "code": "ART-201",
+          "title": "Modern Art & Expression",
+          "courseId": "crs-1",
+          "course": "Modern Art & Contemporary Expression",
+          "days": [
+            "Monday",
+            "Wednesday"
+          ],
+          "day": "Mon, Wed",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "time": "10:00AM - 12:00PM",
+          "date": "2026-10-19",
+          "color": "sage",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Studio Hall 4B"
+        },
+        {
+          "id": "sch-maya-2",
+          "code": "TYP-105",
+          "title": "Arabic Calligraphy Masterclass",
+          "courseId": "crs-3",
+          "course": "Arabic Calligraphy & Letterform Craft",
+          "days": [
+            "Friday"
+          ],
+          "day": "Friday",
+          "startTime": "09:00",
+          "endTime": "13:00",
+          "time": "9:00AM - 1:00PM",
+          "date": "2026-10-16",
+          "color": "teal",
+          "instructor": "Prof. Alicia Mayer",
+          "location": "Calligraphy Sanctuary"
+        },
+        {
+          "id": "sch-maya-3",
+          "code": "DEV-410",
+          "title": "UI Architecture Lab",
+          "courseId": "crs-4",
+          "course": "Cache Up: UI Architecture & Systems",
+          "days": [
+            "Monday",
+            "Thursday"
+          ],
+          "day": "Mon, Thu",
+          "startTime": "16:30",
+          "endTime": "18:30",
+          "time": "4:30PM - 6:30PM",
+          "date": "2026-10-19",
+          "color": "lavender",
+          "instructor": "Mika Dickens",
+          "location": "Turing Lecture Hall"
+        }
+      ]
+    },
+    "usr-10": {
+      "title": "David Kim — Illustration & Concept Art Schedule",
+      "items": [
+        {
+          "id": "sch-david-1",
+          "code": "DSN-340",
+          "title": "Advanced Sketching & Anatomy",
+          "courseId": "crs-2",
+          "course": "Advanced Sketching & Anatomy",
+          "days": [
+            "Tuesday",
+            "Thursday"
+          ],
+          "day": "Tue, Thu",
+          "startTime": "14:00",
+          "endTime": "16:00",
+          "time": "2:00PM - 4:00PM",
+          "date": "2026-10-20",
+          "color": "mint",
+          "instructor": "Mika Dickens",
+          "location": "Digital Lab 202"
+        },
+        {
+          "id": "sch-david-2",
+          "code": "DEV-410",
+          "title": "UI Architecture & Systems",
+          "courseId": "crs-4",
+          "course": "Cache Up: UI Architecture & Systems",
+          "days": [
+            "Monday",
+            "Thursday"
+          ],
+          "day": "Mon, Thu",
+          "startTime": "16:30",
+          "endTime": "18:30",
+          "time": "4:30PM - 6:30PM",
+          "date": "2026-10-19",
+          "color": "lavender",
+          "instructor": "Mika Dickens",
+          "location": "Turing Lecture Hall"
+        },
+        {
+          "id": "sch-david-3",
+          "code": "ILL-302",
+          "title": "Digital Figure Life Drawing",
+          "courseId": "crs-6",
+          "course": "Digital Figure Illustration Lab",
+          "days": [
+            "Saturday",
+            "Sunday"
+          ],
+          "day": "Sat, Sun",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "time": "11:00AM - 2:00PM",
+          "date": "2026-10-18",
+          "color": "peach",
+          "instructor": "Mika Dickens",
+          "location": "JRF 104"
+        }
+      ]
+    }
+  },
+  "globalSchedule": [
+    {
+      "id": "sch-1",
+      "code": "ART-201",
+      "title": "Modern Art & Expression",
+      "courseId": "crs-1",
+      "course": "Modern Art & Contemporary Expression",
+      "days": [
+        "Monday",
+        "Wednesday"
+      ],
+      "day": "Mon, Wed",
+      "startTime": "07:30",
+      "endTime": "09:00",
+      "time": "7:30AM - 9:00AM",
+      "date": "2026-10-15",
+      "color": "sage",
+      "instructor": "Prof. Alicia Mayer",
+      "location": "Studio 4B"
+    },
+    {
+      "id": "sch-2",
+      "code": "DSN-340",
+      "title": "Advanced Sketching",
+      "courseId": "crs-2",
+      "course": "Advanced Sketching & Anatomy",
+      "days": [
+        "Monday",
+        "Wednesday"
+      ],
+      "day": "Mon, Wed",
+      "startTime": "09:30",
+      "endTime": "11:00",
+      "time": "9:30AM - 11:00AM",
+      "date": "2026-10-15",
+      "color": "mint",
+      "instructor": "Mika Dickens",
+      "location": "Lab 202"
+    },
+    {
+      "id": "sch-3",
+      "code": "TYP-105",
+      "title": "Typography & Letterform",
+      "courseId": "crs-3",
+      "course": "Arabic Calligraphy & Letterform Craft",
+      "days": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "day": "Tue, Thu",
+      "startTime": "09:30",
+      "endTime": "12:00",
+      "time": "9:30AM - 12:00PM",
+      "date": "2026-10-15",
+      "color": "teal",
+      "instructor": "Prof. Alicia Mayer",
+      "location": "Hall 105"
+    },
+    {
+      "id": "sch-4",
+      "code": "DEV-410",
+      "title": "UI Architecture Lab",
+      "courseId": "crs-4",
+      "course": "Cache Up: UI Architecture & Systems",
+      "days": [
+        "Friday"
+      ],
+      "day": "Friday",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "time": "11:00AM - 2:00PM",
+      "date": "2026-10-16",
+      "color": "lavender",
+      "instructor": "Mika Dickens",
+      "location": "MB 613"
+    },
+    {
+      "id": "sch-5",
+      "code": "CRT-210",
+      "title": "Studio Critique",
+      "courseId": "crs-5",
+      "course": "Fine Arts Portfolio Seminar",
+      "days": [
+        "Monday"
+      ],
+      "day": "Monday",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "time": "2:00PM - 5:00PM",
+      "date": "2026-10-19",
+      "color": "coral",
+      "instructor": "Prof. Alicia Mayer",
+      "location": "MB 502"
+    },
+    {
+      "id": "sch-6",
+      "code": "ILL-302",
+      "title": "Digital Figure Lab",
+      "courseId": "crs-6",
+      "course": "Digital Figure Illustration Lab",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "day": "Sat, Sun",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "time": "11:00AM - 2:00PM",
+      "date": "2026-10-18",
+      "color": "peach",
+      "instructor": "Mika Dickens",
+      "location": "JRF 104"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem-1",
+      "title": "Art - Sem Test: Texture & Detail submission",
+      "date": "18 Oct 2026, Friday",
+      "type": "assignment",
+      "course": "Modern Art"
+    },
+    {
+      "id": "rem-2",
+      "title": "Eng - Vocabulary Quiz & Speech draft",
+      "date": "22 Oct 2026, Tuesday",
+      "type": "quiz",
+      "course": "Language & Rhetoric"
+    },
+    {
+      "id": "rem-3",
+      "title": "Anatomy Figure Sketch Review session",
+      "date": "28 Oct 2026, Monday",
+      "type": "workshop",
+      "course": "Advanced Sketching"
+    }
+  ],
+  "meetings": {
+    "crs-1": {
+      "id": "meet-crs-1",
+      "courseId": "crs-1",
+      "title": "Modern Art: Live Studio Critique & Cubist Analysis",
+      "meetUrl": "https://meet.google.com/lookup/cacheup-art201",
+      "date": "2026-10-19",
+      "time": "10:00 AM - 11:30 AM",
+      "instructorName": "Prof. Alicia Mayer",
+      "instructorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "status": "live",
+      "notes": "Please have your texture abstraction sketches ready to present via screen share. We will review each student for 5 minutes.",
+      "createdAt": "2026-10-18"
+    },
+    "crs-2": {
+      "id": "meet-crs-2",
+      "courseId": "crs-2",
+      "title": "Gesture Drawing & Live Model Demonstration",
+      "meetUrl": "https://meet.google.com/lookup/cacheup-dsn340",
+      "date": "2026-10-20",
+      "time": "2:00 PM - 3:30 PM",
+      "instructorName": "Mika Dickens",
+      "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "status": "scheduled",
+      "notes": "Live digital tablet demonstration covering rapid 30-second pose gestures.",
+      "createdAt": "2026-10-18"
+    }
+  }
+}

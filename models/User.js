@@ -6,14 +6,14 @@ const userSchema = new mongoose.Schema(
   {
     _id: {
       type: String,
-      default: () => crypto.randomUUID(),
+      default: () => `usr-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
     },
     name: {
       type: String,
       required: [true, "Name is required"],
       trim: true,
       minlength: [2, "Name must be at least 2 characters"],
-      maxlength: [50, "Name must be at most 50 characters"],
+      maxlength: [80, "Name must be at most 80 characters"],
     },
     email: {
       type: String,
@@ -34,14 +34,66 @@ const userSchema = new mongoose.Schema(
       enum: ["admin", "teacher", "student"],
       default: "student",
     },
-    studentId: {
-      type: String,
-      trim: true,
-    },
     status: {
       type: String,
       enum: ["pending", "approved", "rejected"],
       default: "pending",
+    },
+    avatar: {
+      type: String,
+      default: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    },
+    title: {
+      type: String,
+      default: "",
+    },
+    bio: {
+      type: String,
+      default: "",
+    },
+    department: {
+      type: String,
+      default: "School of Design & Creative Arts",
+    },
+    studentId: {
+      type: String,
+      trim: true,
+    },
+    phone: {
+      type: String,
+      default: "",
+    },
+    joinedDate: {
+      type: String,
+      default: () => new Date().toLocaleString("en-US", { month: "long", year: "numeric" }),
+    },
+    points: {
+      type: Number,
+      default: 1000,
+    },
+    gpa: {
+      type: String,
+      default: "3.80",
+    },
+    streakDays: {
+      type: Number,
+      default: 1,
+    },
+    studyHours: {
+      type: Number,
+      default: 10,
+    },
+    enrolledCourseIds: {
+      type: [String],
+      default: [],
+    },
+    assignedCourseIds: {
+      type: [String],
+      default: [],
+    },
+    registrationNotes: {
+      type: String,
+      default: "",
     },
   },
   { timestamps: true }

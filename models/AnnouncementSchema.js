@@ -1,38 +1,57 @@
 const mongoose = require("mongoose");
-const crypto = require("crypto");
 
 const announcementSchema = new mongoose.Schema(
   {
     _id: {
       type: String,
-      default: () => crypto.randomUUID(),
+      default: () => `anc-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
     },
-    course: {
+    courseId: {
       type: String,
       ref: "Course",
-      required: [true, "Course is required"],
+      required: [true, "Course ID is required"],
+    },
+    courseName: {
+      type: String,
+      default: "Course",
     },
     title: {
       type: String,
       required: [true, "Title is required"],
       trim: true,
-      minlength: [2, "Title must be at least 2 characters"],
-      maxlength: [100, "Title must be at most 100 characters"],
+    },
+    author: {
+      type: String,
+      default: "Instructor",
+    },
+    authorAvatar: {
+      type: String,
+      default: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+    },
+    role: {
+      type: String,
+      default: "Faculty / Instructor",
+    },
+    date: {
+      type: String,
+      default: () => new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }),
     },
     content: {
       type: String,
       required: [true, "Content is required"],
       trim: true,
-      maxlength: [2000, "Content must be at most 2,000 characters"],
     },
-    postedBy: {
-      type: String,
-      ref: "User",
-      required: [true, "Poster is required"],
-    },
-    isPinned: {
+    pinned: {
       type: Boolean,
       default: false,
+    },
+    priority: {
+      type: String,
+      default: "Normal",
+    },
+    commentsCount: {
+      type: Number,
+      default: 0,
     },
   },
   { timestamps: true }
