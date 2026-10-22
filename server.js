@@ -12,6 +12,8 @@ app.get("/", (req, res) => {
 const authRoutes = require("./routes/authRoutes");   
 app.use("/api/auth", authRoutes ); 
 
+app.use("/api/profile", require("./routes/profileRoutes"));
+
 const PORT = process.env.PORT || 5000;
 
 connectDB().then(() => {
