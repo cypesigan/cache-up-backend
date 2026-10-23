@@ -2407,7 +2407,7 @@
       "maxScore": 100,
       "priority": "Medium",
       "priorityColor": "forest",
-      "status": "Graded",
+      "status": "Pending",
       "rubric": [
         {
           "criteria": "Palette Balance",
@@ -2440,7 +2440,7 @@
       "maxScore": 100,
       "priority": "High",
       "priorityColor": "gold",
-      "status": "Graded",
+      "status": "Pending",
       "rubric": [
         {
           "criteria": "Nuqta Calibration",
