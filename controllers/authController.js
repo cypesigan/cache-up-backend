@@ -33,6 +33,11 @@ const register = async (req, res) => {
       phone: phone || "+1 (555) 000-0000",
       avatar,
       registrationNotes: notes || "Submitted online student registration form.",
+      points: 0,
+      gpa: "N/A",
+      streakDays: 0,
+      studyHours: 0,
+      enrolledCourseIds: [],
     });
 
     res.status(201).json({

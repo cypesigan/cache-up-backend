@@ -69,19 +69,19 @@ const userSchema = new mongoose.Schema(
     },
     points: {
       type: Number,
-      default: 1000,
+      default: 0,
     },
     gpa: {
       type: String,
-      default: "3.80",
+      default: "N/A",
     },
     streakDays: {
       type: Number,
-      default: 1,
+      default: 0,
     },
     studyHours: {
       type: Number,
-      default: 10,
+      default: 0,
     },
     enrolledCourseIds: {
       type: [String],
