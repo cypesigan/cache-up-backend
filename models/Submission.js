@@ -1,53 +1,103 @@
 const mongoose = require("mongoose");
-const crypto = require("crypto");
 
 const submissionSchema = new mongoose.Schema(
   {
     _id: {
       type: String,
-      default: () => crypto.randomUUID(),
+      default: () => `sub-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
     },
-    assignment: {
+    assignmentId: {
       type: String,
       ref: "Assignment",
-      required: [true, "Assignment is required"],
+      required: [true, "Assignment ID is required"],
     },
-    student: {
+    assignmentTitle: {
+      type: String,
+      default: "Assignment",
+    },
+    courseId: {
+      type: String,
+      ref: "Course",
+      default: "crs-1",
+    },
+    courseName: {
+      type: String,
+      default: "Course",
+    },
+    studentId: {
       type: String,
       ref: "User",
-      required: [true, "Student is required"],
+      required: [true, "Student ID is required"],
+    },
+    studentName: {
+      type: String,
+      default: "Student",
+    },
+    studentAvatar: {
+      type: String,
+      default: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    },
+    submissionDate: {
+      type: String,
+      default: () => new Date().toISOString().replace("T", " ").slice(0, 16),
+    },
+    submissionType: {
+      type: String,
+      default: "file",
     },
     content: {
       type: String,
       trim: true,
-      maxlength: [5000, "Content must be at most 5,000 characters"],
+      default: "",
     },
-    link: {
+    linkUrl: {
       type: String,
       trim: true,
+      default: "",
     },
-    grade: {
-      type: Number,
-      min: [0, "Grade cannot be negative"],
-      default: null,
-    },
-    feedback: {
+    fileName: {
       type: String,
-      trim: true,
-      maxlength: [1000, "Feedback must be at most 1,000 characters"],
+      default: "",
+    },
+    fileSize: {
+      type: String,
+      default: "",
+    },
+    fileUrl: {
+      type: String,
+      default: "",
     },
     status: {
       type: String,
-      enum: ["submitted", "graded"],
-      default: "submitted",
+      enum: ["Submitted", "Graded", "submitted", "graded"],
+      default: "Submitted",
     },
-    isLate: {
-      type: Boolean,
-      default: false,
+    score: {
+      type: Number,
+      default: null,
+    },
+    maxScore: {
+      type: Number,
+      default: 100,
+    },
+    feedback: {
+      type: String,
+      default: "",
+    },
+    rubricScores: {
+      type: mongoose.Schema.Types.Mixed,
+      default: null,
+    },
+    gradedBy: {
+      type: String,
+      default: null,
+    },
+    gradedAt: {
+      type: String,
+      default: null,
     },
   },
   { timestamps: true }
 );
-submissionSchema.index({ assignment: 1, student: 1 }, { unique: true });
 
 module.exports = mongoose.model("Submission", submissionSchema);

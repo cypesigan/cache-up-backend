@@ -1,11 +1,32 @@
 const mongoose = require("mongoose");
 
+let memoryServer = null;
+
 const connectDB = async () => {
+  const uri = process.env.MONGO_URI;
+
+  if (uri) {
+    try {
+      console.log(`Attempting to connect to MongoDB URI...`);
+      await mongoose.connect(uri, { serverSelectionTimeoutMS: 5000 });
+      console.log("MongoDB connected successfully via MONGO_URI");
+      return;
+    } catch (error) {
+      console.warn("MongoDB connection to MONGO_URI failed:", error.message);
+      console.log("Starting in-memory MongoDB instance as a seamless fallback...");
+    }
+  } else {
+    console.log("No MONGO_URI provided in .env, initializing in-memory MongoDB instance...");
+  }
+
   try {
-    await mongoose.connect(process.env.MONGO_URI);
-    console.log("MongoDB connected");
-  } catch (error) {
-    console.error("MongoDB connection failed:", error.message);
+    const { MongoMemoryServer } = require("mongodb-memory-server");
+    memoryServer = await MongoMemoryServer.create();
+    const memUri = memoryServer.getUri();
+    await mongoose.connect(memUri);
+    console.log(`In-memory MongoDB running and connected at ${memUri}`);
+  } catch (memError) {
+    console.error("Failed to start in-memory MongoDB:", memError.message);
     process.exit(1);
   }
 };

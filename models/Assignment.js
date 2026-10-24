@@ -1,48 +1,91 @@
 const mongoose = require("mongoose");
-const crypto = require("crypto");
+
+const rubricItemSchema = new mongoose.Schema(
+  {
+    criteria: { type: String, required: true },
+    points: { type: Number, required: true },
+  },
+  { _id: false }
+);
 
 const assignmentSchema = new mongoose.Schema(
   {
     _id: {
       type: String,
-      default: () => crypto.randomUUID(),
+      default: () => `asg-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
     },
-    course: {
+    courseId: {
       type: String,
       ref: "Course",
-      required: [true, "Course is required"],
+      required: [true, "Course ID is required"],
+    },
+    courseName: {
+      type: String,
+      default: "Course",
     },
     title: {
       type: String,
       required: [true, "Title is required"],
       trim: true,
-      minlength: [2, "Title must be at least 2 characters"],
-      maxlength: [100, "Title must be at most 100 characters"],
+    },
+    description: {
+      type: String,
+      trim: true,
+      default: "",
     },
     instructions: {
       type: String,
       trim: true,
-      maxlength: [2000, "Instructions must be at most 2,000 characters"],
+      default: "",
     },
-    link: {
+    publishedAt: {
       type: String,
-      trim: true,
+      default: () => new Date().toISOString().slice(0, 10),
     },
     dueDate: {
-      type: Date,
+      type: String,
       required: [true, "Due date is required"],
+    },
+    dueTime: {
+      type: String,
+      default: "11:59 PM",
+    },
+    duration: {
+      type: String,
+      default: "2 hours",
+    },
+    maxScore: {
+      type: Number,
+      default: 100,
     },
     totalPoints: {
       type: Number,
-      required: [true, "Total points is required"],
-      min: [1, "Total points must be at least 1"],
-      max: [1000, "Total points must be at most 1000"],
       default: 100,
+    },
+    priority: {
+      type: String,
+      enum: ["High", "Medium", "Low"],
+      default: "Medium",
+    },
+    priorityColor: {
+      type: String,
+      default: "gold",
+    },
+    status: {
+      type: String,
+      default: "Pending",
+    },
+    rubric: {
+      type: [rubricItemSchema],
+      default: [],
+    },
+    submissionTypes: {
+      type: [String],
+      default: ["image", "pdf", "link"],
     },
     createdBy: {
       type: String,
       ref: "User",
-      required: [true, "Creator is required"],
     },
   },
   { timestamps: true }
