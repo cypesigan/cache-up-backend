@@ -1,4 +1,7 @@
 node_modules
-package.json
-package-lock.json
 .env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.neon

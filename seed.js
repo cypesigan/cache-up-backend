@@ -2,6 +2,8 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const connectDB = require("./config/db");
+const { disconnectDB } = connectDB;
+const { isProd } = require("./config/env");
 
 const User = require("./models/User");
 const Course = require("./models/Course");
@@ -21,7 +23,7 @@ const seedDatabase = async () => {
 
     // Clear existing collections
     await Promise.all([
-      User.deleteMany({}),
+      User.deleteAll(),
       Course.deleteMany({}),
       Assignment.deleteMany({}),
       Submission.deleteMany({}),
@@ -34,14 +36,19 @@ const seedDatabase = async () => {
     console.log("Cleared existing database collections.");
 
     // 1. Seed Users (Hash password123 for all users)
+    // Demo accounts all share one password. Override it with SEED_PASSWORD (recommended outside of local development).
+    const seedPassword = process.env.SEED_PASSWORD || "password123";
+    if (!process.env.SEED_PASSWORD && isProd) {
+      console.warn("WARNING: SEED_PASSWORD is not set, so every demo account uses the password 'password123'.");
+    }
     const salt = await bcrypt.genSalt(10);
-    const defaultHashedPassword = await bcrypt.hash("password123", salt);
+    const defaultHashedPassword = await bcrypt.hash(seedPassword, salt);
 
     const userDocs = seedData.users.map((u) => ({
       _id: u.id,
       name: u.name,
       email: u.email.toLowerCase(),
-      password: defaultHashedPassword,
+      passwordHash: defaultHashedPassword,
       role: u.role,
       status: u.status || "approved",
       avatar: u.avatar,
@@ -51,10 +58,10 @@ const seedDatabase = async () => {
       studentId: u.studentId || `CU-2026-000`,
       phone: u.phone || "",
       joinedDate: u.joinedDate || "October 2026",
-      points: u.points || 1000,
-      gpa: u.gpa || "3.80",
-      streakDays: u.streakDays || 5,
-      studyHours: u.studyHours || 20,
+      points: u.points ?? 0,
+      gpa: u.gpa ?? "N/A",
+      streakDays: u.streakDays ?? 0,
+      studyHours: u.studyHours ?? 0,
       enrolledCourseIds: u.enrolledCourseIds || [],
       assignedCourseIds: u.assignedCourseIds || [],
       registrationNotes: u.registrationNotes || "",
@@ -112,6 +119,7 @@ const seedDatabase = async () => {
       status: a.status || "Pending",
       rubric: a.rubric || [],
       submissionTypes: a.submissionTypes || ["image", "pdf", "link"],
+      unitIdx: a.unitIdx,
       createdBy: "usr-3",
     }));
 
@@ -194,16 +202,16 @@ const seedDatabase = async () => {
     const materialDocs = seedData.materials.map((m) => ({
       _id: m.id,
       courseId: m.courseId,
-      courseName: m.courseName,
+      courseTitle: m.courseTitle,
       title: m.title,
       type: m.type,
       size: m.size,
-      unit: m.unit,
+      unitIdx: m.unitIdx,
       downloads: m.downloads || 0,
-      updatedAtFormatted: m.updatedAt || "Oct 15, 2026",
-      linkUrl: m.linkUrl || "",
+      uploadDate: m.uploadDate || "2026-10-15",
+      uploadedBy: m.uploadedBy || "Instructor",
+      downloadUrl: m.downloadUrl || "#",
       description: m.description || "",
-      uploadedBy: "usr-3",
     }));
 
     await Material.insertMany(materialDocs);
@@ -215,14 +223,15 @@ const seedDatabase = async () => {
       courseId: a.courseId,
       courseName: a.courseName,
       title: a.title,
-      author: a.author,
+      authorName: a.authorName,
+      authorRole: a.authorRole,
       authorAvatar: a.authorAvatar,
-      role: a.role,
       date: a.date,
       content: a.content,
       pinned: a.pinned || false,
       priority: a.priority || "Normal",
-      commentsCount: a.commentsCount || 0,
+      isRead: a.isRead || false,
+      replies: a.replies || [],
     }));
 
     await Announcement.insertMany(announcementDocs);
@@ -261,15 +270,18 @@ const seedDatabase = async () => {
 
 // If run directly from command line
 if (require.main === module) {
-  connectDB().then(async () => {
+  (async () => {
     try {
+      await connectDB();
       await seedDatabase();
       console.log("Exiting seed script successfully.");
+      await disconnectDB();
       process.exit(0);
     } catch (err) {
+      console.error(err.message);
       process.exit(1);
     }
-  });
+  })();
 }
 
 module.exports = seedDatabase;

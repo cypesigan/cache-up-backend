@@ -6,10 +6,13 @@ const {
   updateAssignment,
   deleteAssignment,
 } = require("../controllers/assignmentController");
+const { protect, restrictTo } = require("../middleware/auth");
+
+router.use(protect);
 
 router.get("/", getAssignments);
-router.post("/", createAssignment);
-router.put("/:id", updateAssignment);
-router.delete("/:id", deleteAssignment);
+router.post("/", restrictTo("teacher", "admin"), createAssignment);
+router.put("/:id", restrictTo("teacher", "admin"), updateAssignment);
+router.delete("/:id", restrictTo("teacher", "admin"), deleteAssignment);
 
 module.exports = router;

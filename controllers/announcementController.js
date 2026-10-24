@@ -1,65 +1,40 @@
 const Announcement = require("../models/AnnouncementSchema");
+const makeCrud = require("../utils/crud");
+const { serialize, sendError } = require("../utils/http");
 
-// GET /api/announcements
-const getAnnouncements = async (req, res) => {
-  try {
-    const items = await Announcement.find().sort({ createdAt: -1 });
-    const formatted = items.map((a) => {
-      const obj = a.toObject();
-      obj.id = obj._id;
-      return obj;
-    });
-    res.status(200).json(formatted);
-  } catch (error) {
-    res.status(500).json({ message: "Failed to fetch announcements", error: error.message });
-  }
-};
+const crud = makeCrud(Announcement, "Announcement");
 
-// POST /api/announcements
-const createAnnouncement = async (req, res) => {
+// POST /api/announcements/:id/replies   (any logged-in user)
+const addReply = async (req, res) => {
   try {
-    const data = req.body;
-    if (data.id && !data._id) data._id = data.id;
-    const item = await Announcement.create(data);
-    const obj = item.toObject();
-    obj.id = obj._id;
-    res.status(201).json(obj);
-  } catch (error) {
-    res.status(400).json({ message: "Failed to create announcement", error: error.message });
-  }
-};
+    const content = typeof req.body?.content === "string" ? req.body.content.trim().slice(0, 2000) : "";
+    if (!content) return res.status(400).json({ message: "Reply content is required" });
 
-// PUT /api/announcements/:id
-const updateAnnouncement = async (req, res) => {
-  try {
+    const reply = {
+      id: typeof req.body.id === "string" && req.body.id ? req.body.id.slice(0, 80) : `rep-${Date.now()}`,
+      authorName: req.user.name,
+      authorRole: req.user.role,
+      authorAvatar: req.user.avatar || "",
+      date: new Date().toISOString().replace("T", " ").slice(0, 16),
+      content,
+    };
+
     const item = await Announcement.findByIdAndUpdate(
       req.params.id,
-      { $set: req.body },
-      { new: true }
+      { $push: { replies: reply } },
+      { new: true, runValidators: true }
     );
     if (!item) return res.status(404).json({ message: "Announcement not found" });
-    const obj = item.toObject();
-    obj.id = obj._id;
-    res.status(200).json(obj);
+    res.status(201).json(serialize(item));
   } catch (error) {
-    res.status(400).json({ message: "Failed to update announcement", error: error.message });
-  }
-};
-
-// DELETE /api/announcements/:id
-const deleteAnnouncement = async (req, res) => {
-  try {
-    const item = await Announcement.findByIdAndDelete(req.params.id);
-    if (!item) return res.status(404).json({ message: "Announcement not found" });
-    res.status(200).json({ message: "Announcement deleted", id: req.params.id });
-  } catch (error) {
-    res.status(500).json({ message: "Failed to delete announcement", error: error.message });
+    sendError(res, error, "Failed to post reply");
   }
 };
 
 module.exports = {
-  getAnnouncements,
-  createAnnouncement,
-  updateAnnouncement,
-  deleteAnnouncement,
+  getAnnouncements: crud.list,
+  createAnnouncement: crud.create,
+  updateAnnouncement: crud.update,
+  deleteAnnouncement: crud.remove,
+  addReply,
 };

@@ -38,6 +38,10 @@ const assignmentSchema = new mongoose.Schema(
       trim: true,
       default: "",
     },
+    // Which syllabus unit this assignment belongs to (used for unit locking in the UI)
+    unitIdx: {
+      type: Number,
+    },
     publishedAt: {
       type: String,
       default: () => new Date().toISOString().slice(0, 10),

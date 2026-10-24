@@ -7,11 +7,14 @@ const {
   updateCourse,
   deleteCourse,
 } = require("../controllers/courseController");
+const { protect, restrictTo } = require("../middleware/auth");
+
+router.use(protect);
 
 router.get("/", getCourses);
 router.get("/:id", getCourseById);
-router.post("/", createCourse);
-router.put("/:id", updateCourse);
-router.delete("/:id", deleteCourse);
+router.post("/", restrictTo("teacher", "admin"), createCourse);
+router.put("/:id", restrictTo("teacher", "admin"), updateCourse);
+router.delete("/:id", restrictTo("teacher", "admin"), deleteCourse);
 
 module.exports = router;

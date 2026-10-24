@@ -6,10 +6,13 @@ const {
   updateMaterial,
   deleteMaterial,
 } = require("../controllers/materialController");
+const { protect, restrictTo } = require("../middleware/auth");
+
+router.use(protect);
 
 router.get("/", getMaterials);
-router.post("/", createMaterial);
-router.put("/:id", updateMaterial);
-router.delete("/:id", deleteMaterial);
+router.post("/", restrictTo("teacher", "admin"), createMaterial);
+router.put("/:id", restrictTo("teacher", "admin"), updateMaterial);
+router.delete("/:id", restrictTo("teacher", "admin"), deleteMaterial);
 
 module.exports = router;

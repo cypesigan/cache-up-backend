@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Field names match what the frontend reads (courseTitle, uploadDate, uploadedBy, downloadUrl, unitIdx).
 const materialSchema = new mongoose.Schema(
   {
     _id: {
@@ -11,9 +12,9 @@ const materialSchema = new mongoose.Schema(
       ref: "Course",
       required: [true, "Course ID is required"],
     },
-    courseName: {
+    courseTitle: {
       type: String,
-      default: "Course",
+      default: "Course Material",
     },
     title: {
       type: String,
@@ -22,35 +23,35 @@ const materialSchema = new mongoose.Schema(
     },
     type: {
       type: String,
-      default: "document",
+      default: "pdf",
     },
     size: {
       type: String,
       default: "1.0 MB",
     },
-    unit: {
-      type: String,
-      default: "Unit 1",
+    unitIdx: {
+      type: Number,
     },
     downloads: {
       type: Number,
       default: 0,
     },
-    updatedAtFormatted: {
+    uploadDate: {
       type: String,
-      default: () => new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }),
+      default: () => new Date().toISOString().slice(0, 10),
     },
-    linkUrl: {
+    // Display name of the uploader (e.g. "Prof. Alicia Mayer")
+    uploadedBy: {
       type: String,
-      default: "",
+      default: "Instructor",
+    },
+    downloadUrl: {
+      type: String,
+      default: "#",
     },
     description: {
       type: String,
       default: "",
-    },
-    uploadedBy: {
-      type: String,
-      ref: "User",
     },
   },
   { timestamps: true }
