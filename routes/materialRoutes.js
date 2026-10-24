@@ -6,10 +6,13 @@ const {
   updateMaterial,
   deleteMaterial,
 } = require("../controllers/materialController");
+const { protect, authorize } = require("../middleware/authMiddleware");
+
+const staff = [protect, authorize("teacher", "admin")];
 
 router.get("/", getMaterials);
-router.post("/", createMaterial);
-router.put("/:id", updateMaterial);
-router.delete("/:id", deleteMaterial);
+router.post("/", staff, createMaterial);
+router.put("/:id", staff, updateMaterial);
+router.delete("/:id", staff, deleteMaterial);
 
 module.exports = router;

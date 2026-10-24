@@ -8,12 +8,15 @@ const {
   getQuizSubmissions,
   submitQuizAttempt,
 } = require("../controllers/quizController");
+const { protect, authorize } = require("../middleware/authMiddleware");
+
+const staff = [protect, authorize("teacher", "admin")];
 
 router.get("/", getQuizzes);
-router.post("/", createQuiz);
-router.put("/:id", updateQuiz);
-router.delete("/:id", deleteQuiz);
+router.post("/", staff, createQuiz);
+router.put("/:id", staff, updateQuiz);
+router.delete("/:id", staff, deleteQuiz);
 router.get("/submissions", getQuizSubmissions);
-router.post("/submit", submitQuizAttempt);
+router.post("/submit", protect, authorize("student"), submitQuizAttempt);
 
 module.exports = router;

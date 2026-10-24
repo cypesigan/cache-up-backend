@@ -6,10 +6,13 @@ const {
   updateAssignment,
   deleteAssignment,
 } = require("../controllers/assignmentController");
+const { protect, authorize } = require("../middleware/authMiddleware");
+
+const staff = [protect, authorize("teacher", "admin")];
 
 router.get("/", getAssignments);
-router.post("/", createAssignment);
-router.put("/:id", updateAssignment);
-router.delete("/:id", deleteAssignment);
+router.post("/", staff, createAssignment);
+router.put("/:id", staff, updateAssignment);
+router.delete("/:id", staff, deleteAssignment);
 
 module.exports = router;
